@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../assets/css/style.css" type="text/css" />
+  </head>
+
+  <body>
+    <button id="DarkModeButton">Toggle Dark Mode</button>
+    <script src="../assets/js/script.js"></script>
+
+    <h1><strong>Contact Us</strong></h1>
+
+    <br />
+
+    <fieldset>
+      <legend>
+        <h2><strong>Contact Form</strong></h2>
+      </legend>
+
+      <form action="../pages/index.html" method="post">
+        <label for="fname">first name : </label>
+        <input
+          type="text"
+          name="fname"
+          id="fname"
+          placeholder="enter first name here"
+          required
+        />
+
+        <br /><br />
+
+        <label for="lname">last name : </label>
+        <input
+          type="text"
+          name="lname"
+          id="lname"
+          placeholder="enter last name here"
+          required
+        />
+
+        <br /><br />
+
+        <label for="phone">phone number : </label>
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="enter tel number here"
+          required
+        />
+
+        <br /><br />
+
+        <label for="mail">e-mail : </label>
+        <input
+          type="email"
+          name="mail"
+          id="mail"
+          placeholder="enter email here"
+          required
+        />
+
+        <br /><br />
+
+        <label for="passw">enter password : </label>
+        <input
+          type="password"
+          name="passw"
+          id="passw"
+          placeholder="enter password here"
+          required
+        />
+
+        <br /><br />
+
+        <p>select gender :</p>
+        <input type="radio" name="gender" id="M" value="male" required />
+        <label for="M">Male</label>
+
+        <input type="radio" name="gender" id="F" value="female" required />
+        <label for="F">Female</label>
+
+        <br /><br />
+
+        <input type="checkbox" name="offer-letter" id="news" />
+        <label for="news">enable notifications for new offers</label>
+
+        <br /><br />
+
+        <textarea
+          name="t-area"
+          id="text-ar"
+          rows="10"
+          cols="50"
+          placeholder="enter your suggestions, complaints, etc here..."
+        ></textarea>
+
+        <br /><br /><br /><br />
+        <input type="reset" name="r" id="reset-form" />
+        <input type="submit" name="s" id="submit-form" />
+      </form>
+    </fieldset>
+
+    <p>
+      <i><a href="#">back to top</a></i>
+    </p>
+    <p>
+      <i><a href="../index.html">back to home</a></i>
+    </p>
+
+    <p>
+      <i>&lt;&lt;&lt; &copy; <i>Taco Shop</i> &gt;&gt;&gt;</i>
+    </p>
+  </body>
+</html>
