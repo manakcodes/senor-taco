@@ -1,0 +1,82 @@
+* {
+}
+
+h1 {
+  font-family: "Pirata One", cursive;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: "Pirata One", cursive;
+  font-size: 50px;
+}
+
+h3 {
+  font-family: "Pirata One", cursive;
+  font-size: 40px;
+}
+
+h4 {
+  font-family: "Pirata One", cursive;
+  font-size: 30px;
+}
+
+p,
+li,
+form,
+table,
+details,
+summary,
+a {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: rgb(255, 253, 250);
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin: 0;
+  padding: 0;
+}
+
+.dark-mode {
+  background-color: rgb(10, 10, 10);
+  /* color: rgb(214, 140, 227); */
+  /* color: crimson; */
+  color: dimgray;
+  a {
+    color: crimson;
+  }
+
+  a:visited {
+    color: darkgreen;
+  }
+}
+
+#DarkModeButton {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+table {
+  font-family: monospace;
+  font-size: 24px;
+  border-collapse: collapse;
+  width: 50%;
+}
+th,
+td {
+  padding: 10px;
+  border: 2px solid black;
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
