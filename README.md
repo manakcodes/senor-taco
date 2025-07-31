@@ -34,7 +34,9 @@
 ## 🧪 How to Run This On Your Device
 
 1. Clone the repository (Paste the following command into you terminal or command prompt):  
-   `git clone https://github.com/manakcodes/senor-taco.git`
+```bash
+git clone https://github.com/manakcodes/senor-taco.git
+   ```
 
 2. Open the project folder.
 
